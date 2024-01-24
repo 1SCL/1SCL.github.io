@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Website</title>
+</head>
+<body>
+  <div class="navbar">
+    <div class="navbar-container">
+      <div class="navbar-logo">SCL</div>
+      <div class="navbar-buttons">
+        <a class="navbar-button" href="#">Home</a>
+        <a class="navbar-button" href="#">About Us</a>
+        <a class="navbar-button" href="#">Events</a>
+        <a class="navbar-button" href="https://dsc.gg/oscl">Discord</a>        
+      </div>
+    </div>
+  </div>
+  
+  <div class="popup">
+    <div class="popup-x">&times;</div>
+    <center><div class="popup-text">Join Our Discord <br> (Click this message to redirect)</div><center>
+  </div>
+
+  <script>
+    document.querySelector('.popup-x').addEventListener('click', function() {
+      document.querySelector('.popup').style.display = 'none';
+    });
+  </script>
+</body>
+</html>
